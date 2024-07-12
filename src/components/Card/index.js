@@ -19,11 +19,7 @@ export default function Card({index, title, description, list, color = "orange",
         <TitleColor as={'h3'} size={'sm'} color={color} className={`mb-16`}>
           {title}
         </TitleColor>
-        {index && (
-          <span className={`badge bg-${color}`}>
-          {index}
-        </span>
-        )}
+
       </div>
       <div className={clsx("d-flex flex-column flex-md-row align-items-start justify-content-lg-between gap-16 gap-md-32 flex-grow-1", link?.href ? "align-items-md-end" : "align-items-md-stretch")}>
         <div className="d-flex flex-column gap-20">

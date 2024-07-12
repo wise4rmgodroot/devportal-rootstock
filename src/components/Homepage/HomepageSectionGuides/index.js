@@ -8,7 +8,7 @@ const data = {
   cards: [
     {
       title: 'Beginner to Web3?',
-      color: 'orange',
+     
       description: (
         <>
           Explore Rootstock Fundamentals and resources to begin your development journey.
